@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Контакты - Адаптивный портфолио</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Перейти к основному содержимому</a>
+
+    <div class="page">
+        <header class="header">
+            <nav class="nav" aria-label="Основная навигация">
+                <div class="nav__container">
+                    <ul class="nav__list">
+                        <li><a href="index.html" class="nav__link">Главная</a></li>
+                        <li><a href="about.html" class="nav__link">О себе</a></li>
+                        <li><a href="projects.html" class="nav__link">Проекты</a></li>
+                        <li><a href="gallery.html" class="nav__link">Галерея</a></li>
+                        <li><a href="contacts.html" class="nav__link" aria-current="page">Контакты</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main id="main" class="main">
+            <div class="container">
+                <section class="section">
+                    <h1 class="section-title">Свяжитесь со мной</h1>
+
+                    <div class="contact-content">
+                        <div class="contact-info">
+                            <h2>Контактная информация</h2>
+                            <div class="contact-item">
+                                <h3>Email</h3>
+                                <p>m.lapchinskiy@gmail.com</p>
+                            </div>
+                            <div class="contact-item">
+                                <h3>Телефон</h3>
+                                <p>+7 996 995 94 45</p>
+                            </div>
+                            <div class="contact-item">
+                                <h3>Адрес</h3>
+                                <p>Москва, проспект Вернадского 86 РТУ МИРЭА</p>
+                            </div>
+                            <div class="contact-item">
+                                <h3>Социальные сети</h3>
+                                <div class="social-links">
+                                    <a href="#" class="social-link">GitHub</a>
+                                    <a href="#" class="social-link">LinkedIn</a>
+                                    <a href="#" class="social-link">Telegram</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-form">
+                            <h2>Форма обратной связи</h2>
+                            <form class="form" aria-labelledby="contact-heading">
+                                <div class="form-group">
+                                    <label for="name">Имя</label>
+                                    <input type="text" id="name" name="name" required aria-describedby="name-hint">
+                                    <small id="name-hint" class="visually-hidden">Введите ваше полное имя</small>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email" required aria-describedby="email-hint email-error">
+                                    <small id="email-hint" class="visually-hidden">Мы пришлём ответ на этот адрес</small>
+                                    <span id="email-error" class="visually-hidden" role="alert"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="subject">Тема</label>
+                                    <input type="text" id="subject" name="subject" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="message">Сообщение</label>
+                                    <textarea id="message" name="message" rows="5" required></textarea>
+                                </div>
+
+                                <button type="submit" class="button">Отправить сообщение</button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__content">
+                <p>&copy; 2024 Портфолио. Все права защищены.</p>
+                <p>Современный адаптивный фронтенд</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

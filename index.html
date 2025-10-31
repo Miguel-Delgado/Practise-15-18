@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Главная - Адаптивный портфолио</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Перейти к основному содержимому</a>
+
+    <div class="page">
+        <header class="header">
+            <nav class="nav" aria-label="Основная навигация">
+                <div class="nav__container">
+                    <ul class="nav__list">
+                        <li><a href="index.html" class="nav__link" aria-current="page">Главная</a></li>
+                        <li><a href="about.html" class="nav__link">О себе</a></li>
+                        <li><a href="projects.html" class="nav__link">Проекты</a></li>
+                        <li><a href="gallery.html" class="nav__link">Галерея</a></li>
+                        <li><a href="contacts.html" class="nav__link">Контакты</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main id="main" class="main">
+            <section class="hero">
+                <div class="hero__content">
+                    <h1 class="hero__title">Добро пожаловать на мой сайт</h1>
+                    <p class="hero__subtitle">Адаптивная и доступная веб-разработка</p>
+                    <div class="hero__image">
+                        <img src="images/P1018793 (1).jpg" alt="Фото ученика" class="hero__photo" width="200" height="200">
+                    </div>
+                    <a href="projects.html" class="button">Смотреть проекты</a>
+                </div>
+            </section>
+
+            <div class="container">
+                <section class="section">
+                    <h2 class="section-title">Последние проекты</h2>
+                    <div class="projects-grid">
+                        <article class="project-card">
+                            <div class="project-card__image">
+                                <img src="images/ChatGPT Image 31 окт. 2025 г., 20_11_53.png" alt="Адаптивный лендинг" loading="lazy" width="400" height="300">
+                            </div>
+                            <div class="project-card__content">
+                                <h3 class="project-card__title">Адаптивный лендинг</h3>
+                                <p class="project-card__description">Современный лендинг с использованием Grid, Flexbox и контейнерных запросов.</p>
+                                <a href="projects.html" class="button">Подробнее</a>
+                            </div>
+                        </article>
+
+                        <article class="project-card">
+                            <div class="project-card__image">
+                                <img src="images/ChatGPT Image 31 окт. 2025 г., 20_14_08.png" alt="Интернет-магазин" loading="lazy" width="400" height="300">
+                            </div>
+                            <div class="project-card__content">
+                                <h3 class="project-card__title">Интернет-магазин</h3>
+                                <p class="project-card__description">E-commerce решение с оптимизированными изображениями и быстрой загрузкой.</p>
+                                <a href="projects.html" class="button">Подробнее</a>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__content">
+                <p>&copy; 2024 Портфолио. Все права защищены.</p>
+                <p>Современный адаптивный фронтенд</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

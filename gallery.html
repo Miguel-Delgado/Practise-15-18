@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Галерея - Адаптивный портфолио</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Перейти к основному содержимому</a>
+
+    <div class="page">
+        <header class="header">
+            <nav class="nav" aria-label="Основная навигация">
+                <div class="nav__container">
+                    <ul class="nav__list">
+                        <li><a href="index.html" class="nav__link">Главная</a></li>
+                        <li><a href="about.html" class="nav__link">О себе</a></li>
+                        <li><a href="projects.html" class="nav__link">Проекты</a></li>
+                        <li><a href="gallery.html" class="nav__link" aria-current="page">Галерея</a></li>
+                        <li><a href="contacts.html" class="nav__link">Контакты</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main id="main" class="main">
+            <div class="container">
+                <section class="section">
+                    <h1 class="section-title">Галерея работ</h1>
+
+                    <div class="gallery">
+                        <div class="gallery__item">
+                            <img src="images/ChatGPT Image 31 окт. 2025 г., 20_19_22.png" alt="Веб-дизайн проект" class="gallery__image" loading="lazy" width="300" height="200">
+                        </div>
+                        <div class="gallery__item">
+                            <img src="images/ChatGPT Image 31 окт. 2025 г., 20_21_01.png" alt="UI/UX дизайн" class="gallery__image" loading="lazy" width="300" height="200">
+                        </div>
+                        <div class="gallery__item">
+                            <img src="images/ChatGPT Image 31 окт. 2025 г., 20_22_13.png" alt="Мобильный интерфейс" class="gallery__image" loading="lazy" width="300" height="200">
+                        </div>
+                        <div class="gallery__item">
+                            <img src="images/ChatGPT Image 31 окт. 2025 г., 20_22_43.png" alt="Брендинг" class="gallery__image" loading="lazy" width="300" height="200">
+                        </div>
+                        <div class="gallery__item">
+                            <img src="images/f352bdf6-0674-47da-ba59-e0a6616a49d9.png" alt="Инфографика" class="gallery__image" loading="lazy" width="300" height="200">
+                        </div>
+                        <div class="gallery__item">
+                            <img src="images/cc6364f0-de69-4b70-bf04-f31fc88713bd.png" alt="Иллюстрация" class="gallery__image" loading="lazy" width="300" height="200">
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <h2 class="section-title">Демонстрация object-fit</h2>
+
+                    <div class="object-fit-demo">
+                        <div class="object-fit-item">
+                            <img src="images/square.jpg" alt="Cover пример" class="object-fit-cover" width="300" height="200">
+                            <span>object-fit: cover</span>
+                        </div>
+                        <div class="object-fit-item">
+                            <img src="images/square.jpg" alt="Contain пример" class="object-fit-contain" width="300" height="200">
+                            <span>object-fit: contain</span>
+                        </div>
+                        <div class="object-fit-item">
+                            <img src="images/square.jpg" alt="Fill пример" class="object-fit-fill" width="300" height="200">
+                            <span>object-fit: fill</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__content">
+                <p>&copy; 2024 Портфолио. Все права защищены.</p>
+                <p>Современный адаптивный фронтенд</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
